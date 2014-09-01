@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<license version="1.1">
+  <Customer>
+    <name>evaluation license</name>
+  </Customer>
+  <products>
+    <Product>
+      <name>aspnetpop3</name>
+      <version>2</version>
+      <licensetype>evaluation</licensetype>
+      <expires>2010-03-04</expires>
+    </Product>
+    <Product>
+      <name>aspnetmime</name>
+      <version>2</version>
+      <licensetype>evaluation</licensetype>
+      <expires>2010-03-04</expires>
+    </Product>
+  </products>
+  <LicenseInformation>
+    <Version>1.1</Version>
+    <H1>0</H1>
+    <H2>WqO5fbKNxKqKva7OmUb8xw==</H2>
+  </LicenseInformation>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>owPQ4hTqcq5J6DIWOK4arzx9cmo=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>W3jL8djxUmFBrN/vQ9Y+XEJAjWgZ9wwtlHvAj9GMohlhAweyqIm9u3xRt2jX/s1U7ikAXLM+X1qosO9fGtxiDLg5MXk/mz3UOyBkERPxA7OjBFtGJ28i0LjOtrHNt9TFOoLk9KLSXJPFqL+Rb6vSwNl3Omuu/7I+uI2Ze96FJrA=</SignatureValue>
+  </Signature>
+</license>

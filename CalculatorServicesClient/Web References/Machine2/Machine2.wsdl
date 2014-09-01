@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://localhost/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://localhost/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://localhost/">
+      <s:element name="multiply">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="numberOne" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="numberTwo" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="multiplyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="multiplyResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="divide">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="numberOne" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="numberTwo" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="divideResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="divideResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="multiplySoapIn">
+    <wsdl:part name="parameters" element="tns:multiply" />
+  </wsdl:message>
+  <wsdl:message name="multiplySoapOut">
+    <wsdl:part name="parameters" element="tns:multiplyResponse" />
+  </wsdl:message>
+  <wsdl:message name="divideSoapIn">
+    <wsdl:part name="parameters" element="tns:divide" />
+  </wsdl:message>
+  <wsdl:message name="divideSoapOut">
+    <wsdl:part name="parameters" element="tns:divideResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Machine2Soap">
+    <wsdl:operation name="multiply">
+      <wsdl:input message="tns:multiplySoapIn" />
+      <wsdl:output message="tns:multiplySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="divide">
+      <wsdl:input message="tns:divideSoapIn" />
+      <wsdl:output message="tns:divideSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Machine2Soap" type="tns:Machine2Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="multiply">
+      <soap:operation soapAction="http://localhost/multiply" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="divide">
+      <soap:operation soapAction="http://localhost/divide" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Machine2Soap12" type="tns:Machine2Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="multiply">
+      <soap12:operation soapAction="http://localhost/multiply" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="divide">
+      <soap12:operation soapAction="http://localhost/divide" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Machine2">
+    <wsdl:port name="Machine2Soap" binding="tns:Machine2Soap">
+      <soap:address location="http://localhost:49360/WebServices/Machine2.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Machine2Soap12" binding="tns:Machine2Soap12">
+      <soap12:address location="http://localhost:49360/WebServices/Machine2.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

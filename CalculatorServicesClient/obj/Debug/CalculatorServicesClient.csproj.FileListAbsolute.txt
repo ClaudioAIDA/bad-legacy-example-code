@@ -1,0 +1,29 @@
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.Properties.Resources.resources
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.csproj.GenerateResource.Cache
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\bin\Debug\CalculatorServicesClient.exe.config
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\bin\Debug\CalculatorServicesClient.exe
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\bin\Debug\CalculatorServicesClient.pdb
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.exe
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.pdb
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.Source.Client.resources
+C:\Documents and Settings\Kvakki\My Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\bin\Debug\CalculatorServicesClient.exe.config
+C:\Documents and Settings\Kvakki\My Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.exe
+C:\Documents and Settings\Kvakki\My Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.pdb
+C:\Documents and Settings\Kvakki\My Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\bin\Debug\CalculatorServicesClient.exe
+C:\Documents and Settings\Kvakki\My Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\bin\Debug\CalculatorServicesClient.pdb
+C:\Documents and Settings\Kvakki\My Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Kvakki\My Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.Properties.Resources.resources
+C:\Documents and Settings\Kvakki\My Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.Source.Client.resources
+C:\Documents and Settings\Kvakki\My Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.csproj.GenerateResource.Cache
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\bin\Debug\MIMEParser.dll
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\bin\Debug\OpenPOP.dll
+C:\Users\sirar\Documents\Visual Studio 2008\Projects\CalculatorServices\CalculatorServicesClient\bin\Debug\Org.Mentalis.Security.dll
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ikt414mandatoryassignment2\CalculatorServicesClient\bin\Debug\CalculatorServicesClient.exe.config
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ikt414mandatoryassignment2\CalculatorServicesClient\bin\Debug\CalculatorServicesClient.exe
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ikt414mandatoryassignment2\CalculatorServicesClient\bin\Debug\CalculatorServicesClient.pdb
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ikt414mandatoryassignment2\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.Properties.Resources.resources
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ikt414mandatoryassignment2\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.Source.Client.resources
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ikt414mandatoryassignment2\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.csproj.GenerateResource.Cache
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ikt414mandatoryassignment2\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.exe
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ikt414mandatoryassignment2\CalculatorServicesClient\obj\Debug\CalculatorServicesClient.pdb

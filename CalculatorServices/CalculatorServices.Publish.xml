@@ -1,0 +1,13 @@
+<publishData>
+  <publishTarget publishUrl="http://localhost/">
+    <file relUrl="bin/CalculatorServicesClient.exe" publishTime="02/05/2010 11:49:03" />
+    <file relUrl="bin/CalculatorServicesClient.pdb" publishTime="02/05/2010 11:49:03" />
+    <file relUrl="bin/CalculatorServices.pdb" publishTime="02/05/2010 12:54:29" />
+    <file relUrl="WebServices/Machine1.asmx" publishTime="01/23/2010 13:32:38" />
+    <file relUrl="WebServices/Machine2.asmx" publishTime="01/23/2010 13:33:14" />
+    <file relUrl="Web.config" publishTime="01/21/2010 18:14:04" />
+    <file relUrl="WebServices/Machine3.asmx" publishTime="01/23/2010 13:33:32" />
+    <file relUrl="bin/CalculatorServices.dll" publishTime="02/05/2010 12:54:29" />
+    <file relUrl="bin/CalculatorServicesClient.XmlSerializers.dll" publishTime="02/05/2010 11:49:05" />
+  </publishTarget>
+</publishData>
