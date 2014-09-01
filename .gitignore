@@ -1,0 +1,13 @@
+*.suo
+/Backup
+/BuildProcessTemplates
+/CalculatorServices/App_Data
+/CalculatorServices/bin
+/CalculatorServices/obj
+/CalculatorServices/Web\ References
+/CalculatorServices/*.user
+/CalculatorServices/CalculatorServices.Publish.xml
+/CalculatorServicesClient/bin
+/CalculatorServicesClient/obj
+/CalculatorServicesClient/Service\ References
+/CalculatorServicesClient/*.user
