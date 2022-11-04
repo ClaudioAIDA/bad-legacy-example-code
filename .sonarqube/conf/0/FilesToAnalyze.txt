@@ -1,0 +1,23 @@
+﻿D:\dev\training\badcode\CalculatorServicesClient\Source\Client.cs
+D:\dev\training\badcode\CalculatorServicesClient\Source\Client.Designer.cs
+D:\dev\training\badcode\CalculatorServicesClient\Source\Program.cs
+D:\dev\training\badcode\CalculatorServicesClient\Properties\AssemblyInfo.cs
+D:\dev\training\badcode\CalculatorServicesClient\Libraries\aspNetMime.DLL
+D:\dev\training\badcode\CalculatorServicesClient\Libraries\aspNetPOP3.dll
+D:\dev\training\badcode\CalculatorServicesClient\Libraries\MIMEParser.dll
+D:\dev\training\badcode\CalculatorServicesClient\Libraries\OpenPOP.dll
+D:\dev\training\badcode\CalculatorServicesClient\Libraries\Org.Mentalis.Security.dll
+D:\dev\training\badcode\CalculatorServicesClient\Properties\Resources.resx
+D:\dev\training\badcode\CalculatorServicesClient\Source\Client.resx
+D:\dev\training\badcode\CalculatorServicesClient\Properties\Settings.settings
+D:\dev\training\badcode\CalculatorServicesClient\app.config
+D:\dev\training\badcode\CalculatorServicesClient\Web References\Machine1\Machine1.disco
+D:\dev\training\badcode\CalculatorServicesClient\Web References\Machine1\Machine1.wsdl
+D:\dev\training\badcode\CalculatorServicesClient\Web References\Machine1\Reference.map
+D:\dev\training\badcode\CalculatorServicesClient\Web References\Machine2\Machine2.wsdl
+D:\dev\training\badcode\CalculatorServicesClient\Web References\Machine2\Machine2.disco
+D:\dev\training\badcode\CalculatorServicesClient\Web References\Machine2\Reference.map
+D:\dev\training\badcode\CalculatorServicesClient\Web References\Machine3\Machine3.wsdl
+D:\dev\training\badcode\CalculatorServicesClient\Libraries\aspNetPOP3.xml.lic
+D:\dev\training\badcode\CalculatorServicesClient\Web References\Machine3\Machine3.disco
+D:\dev\training\badcode\CalculatorServicesClient\Web References\Machine3\Reference.map

@@ -1,0 +1,13 @@
+﻿D:\dev\training\badcode\CalculatorServices\Source\AbstractStack.cs
+D:\dev\training\badcode\CalculatorServices\Source\Vulnerability.cs
+D:\dev\training\badcode\CalculatorServices\Source\ExpressionStack.cs
+D:\dev\training\badcode\CalculatorServices\Properties\AssemblyInfo.cs
+D:\dev\training\badcode\CalculatorServices\WebServices\Machine1.asmx.cs
+D:\dev\training\badcode\CalculatorServices\WebServices\Machine2.asmx.cs
+D:\dev\training\badcode\CalculatorServices\WebServices\Machine3.asmx.cs
+D:\dev\training\badcode\CalculatorServices\Web.config
+D:\dev\training\badcode\CalculatorServices\WebServices\Machine1.asmx
+D:\dev\training\badcode\CalculatorServices\WebServices\Machine2.asmx
+D:\dev\training\badcode\CalculatorServices\WebServices\Machine3.asmx
+D:\dev\training\badcode\CalculatorServices\WebServices\Machine1.asmx.resx
+D:\dev\training\badcode\CalculatorServices\Properties\Settings.settings

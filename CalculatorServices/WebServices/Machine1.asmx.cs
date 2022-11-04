@@ -8,8 +8,12 @@ using System.Web.Services;
 using System.Web.Services.Protocols;
 using System.Xml.Linq;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 using System.Globalization;
+using System.Net;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace CalculatorServices.WebServices
 {
@@ -19,12 +23,29 @@ namespace CalculatorServices.WebServices
 
     public class Machine1 : System.Web.Services.WebService
     {
+        private static string  ip = "192.168.12.42";
+        private IPAddress address = IPAddress.Parse(ip);
+
+        public void Hash(string password)
+        {
+            var salt = Encoding.UTF8.GetBytes("Hardcoded salt");
+            var fromHardcoded = new Rfc2898DeriveBytes(password, salt);     // Noncompliant, salt is hardcoded
+
+            salt = Encoding.UTF8.GetBytes(password);
+            var fromPassword = new Rfc2898DeriveBytes(password, salt);     // Noncompliant, password should not be used as a salt as it makes it predictable
+
+            var shortSalt = new byte[8];
+            RandomNumberGenerator.Create().GetBytes(shortSalt);
+            var fromShort = new Rfc2898DeriveBytes(password, shortSalt);   // Noncompliant, salt is too short (should be at least 16 bytes, not 8)
+        }
+
         //Declare machine2 and machine3
         public Machine2 machine2;
         public Machine3 machine3;
 
         //Declare output list that will be returned to client once calculation is complete
         private List<string> outputList;
+        private SqlClientLogger logger;
 
         public Machine1()
         {
@@ -34,6 +55,8 @@ namespace CalculatorServices.WebServices
 
             //Initialize output list
             outputList = new List<string>();
+
+            logger = new SqlClientLogger();
         }
 
         //Web method that transforms expression into postfix form and parses expression accordingly
@@ -59,6 +82,8 @@ namespace CalculatorServices.WebServices
             //Fill calculation list with postfix expression
             for (int i = 0; i < postfixExpression.Count; i++)
                 calculationList.Add(postfixExpression[i].ToString());
+
+            logger.LogInfo("List<String>","handleException",calculationList.ToString());
 
             //Parse calculation list and calculate accordingly
             return parse(calculationList);           
@@ -244,11 +269,11 @@ namespace CalculatorServices.WebServices
             }
 
             //If temporary stack is not empty and we are still testing operator priorities, re-call method (recursion)
-            if (!tempStack.isEmpty() && furtherTesting)
-            {
+            //if (!tempStack.isEmpty() && furtherTesting)
+            //{
                 compareAndPushPop(tempStack,currentIndex, expressionInput, postFixStack, priorityTable);
                 //furtherTesting = false;
-            }
+            //}
             return furtherTesting;
 	    }
 

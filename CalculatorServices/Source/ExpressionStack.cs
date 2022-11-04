@@ -13,11 +13,11 @@ using System.Collections.Generic;
 
 namespace CalculatorServices.Source
 {
-    public class ExpressionStack
+    public class ExpressionStack: AbstractStack
     {
         List<string> stackList;       
 
-	    public ExpressionStack()
+	    public ExpressionStack(): base()
 	    {
 		    stackList = new List<string>();
 	    }
@@ -27,14 +27,14 @@ namespace CalculatorServices.Source
 		    stackList.Add(pushVar);
 	    }
 
-	    public string pop()
-	    {
-            string temp = stackList[stackList.Count - 1];
+		public string pop()
+        {
+            int temp = Int32.Parse(stackList[stackList.Count - 1]);
             stackList.Remove(stackList[stackList.Count - 1]);
-		    return temp;
-	    }
+            return temp.ToString();
+        }
 
-	    public void clearStack()
+		public void clearStack()
 	    {
             stackList.Clear();
 	    }
@@ -50,6 +50,11 @@ namespace CalculatorServices.Source
 
 	    public List<string> getStack()
 	    {
+            if (stackList != null)
+            {
+                if (stackList != null)
+                    return stackList;
+            }
 		    return stackList;
 	    }
 

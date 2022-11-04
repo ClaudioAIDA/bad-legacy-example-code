@@ -1,0 +1,10 @@
+K
+BD:\dev\training\badcode\CalculatorServices\Source\AbstractStack.csutf-8K
+BD:\dev\training\badcode\CalculatorServices\Source\Vulnerability.csutf-8M
+DD:\dev\training\badcode\CalculatorServices\Source\ExpressionStack.csutf-8N
+ED:\dev\training\badcode\CalculatorServices\Properties\AssemblyInfo.csutf-8U
+JD:\dev\training\badcode\CalculatorServices\Properties\Settings.Designer.csutf-8P
+GD:\dev\training\badcode\CalculatorServices\WebServices\Machine1.asmx.csutf-8P
+GD:\dev\training\badcode\CalculatorServices\WebServices\Machine2.asmx.csutf-8P
+GD:\dev\training\badcode\CalculatorServices\WebServices\Machine3.asmx.csutf-8p
+eD:\dev\training\badcode\CalculatorServices\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.csutf-8

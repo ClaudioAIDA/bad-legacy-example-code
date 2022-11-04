@@ -62,9 +62,10 @@ namespace CalculatorServicesClient.Source
 
                     //Print to output textbox
                     outputTextBox.Text += outputList[i] + "\r\n";
+                    var num = -20;
 
                     //Increase progress bar value
-                    progressBar.Value += 20;
+                    progressBar.Value =- 20;
 
                     //Scroll down to bottom
                     outputTextBox.SelectionStart = outputTextBox.Text.Length;

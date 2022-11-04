@@ -1,0 +1,1639 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.1.0.0",
+        "fileVersion": "4.1.0-5.22165.10 (e555772d)",
+        "semanticVersion": "4.1.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/Source/Vulnerability.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 72,
+                  "endLine": 16,
+                  "endColumn": 108
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'stackList' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/Source/ExpressionStack.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 22,
+                  "endLine": 18,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 25,
+                  "endLine": 43,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 25,
+                  "endLine": 44,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 273,
+                  "startColumn": 13,
+                  "endLine": 273,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 275,
+                  "startColumn": 17,
+                  "endLine": 275,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3442",
+          "level": "warning",
+          "message": "Change the visibility of this constructor to 'protected'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/Source/AbstractStack.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 9,
+                  "endLine": 10,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1117",
+          "level": "warning",
+          "message": "Rename 'result' which hides the field with the same name.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine2.asmx.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 20,
+                  "endLine": 39,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'address' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 27,
+                  "endLine": 27,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'outputList' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 30,
+                  "endLine": 47,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'logger' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 33,
+                  "endLine": 48,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private field 'address'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 9,
+                  "endLine": 27,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/Source/ExpressionStack.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 17,
+                  "endLine": 55,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/Source/ExpressionStack.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 13,
+                  "endLine": 53,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2589",
+          "level": "warning",
+          "message": "Change this condition so that it does not always evaluate to 'true'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/Source/ExpressionStack.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 21,
+                  "endLine": 55,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 21,
+                  "endLine": 207,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 13,
+                  "endLine": 218,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 17,
+                  "endLine": 220,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 223,
+                  "startColumn": 17,
+                  "endLine": 223,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 226,
+                  "startColumn": 13,
+                  "endLine": 226,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 226,
+                  "startColumn": 42,
+                  "endLine": 226,
+                  "endColumn": 44
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 230,
+                  "startColumn": 13,
+                  "endLine": 230,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 13,
+                  "endLine": 236,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 238,
+                  "startColumn": 17,
+                  "endLine": 238,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 248,
+                  "startColumn": 21,
+                  "endLine": 248,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 253,
+                  "startColumn": 25,
+                  "endLine": 253,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 256,
+                  "startColumn": 25,
+                  "endLine": 256,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 263,
+                  "startColumn": 17,
+                  "endLine": 263,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 21,
+                  "endLine": 207,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+1",
+              "11": "+1",
+              "12": "+1 (recursion)",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+1",
+              "4": "+1",
+              "5": "+1",
+              "6": "+1",
+              "7": "+2 (incl 1 for nesting)",
+              "8": "+3 (incl 2 for nesting)",
+              "9": "+4 (incl 3 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 29,
+                  "endLine": 94,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 13,
+                  "endLine": 135,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 17,
+                  "endLine": 137,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 17,
+                  "endLine": 142,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 21,
+                  "endLine": 145,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 43,
+                  "endLine": 145,
+                  "endColumn": 45
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 21,
+                  "endLine": 149,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 25,
+                  "endLine": 152,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 77,
+                  "endLine": 152,
+                  "endColumn": 79
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 25,
+                  "endLine": 156,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 29,
+                  "endLine": 158,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 33,
+                  "endLine": 160,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 89,
+                  "endLine": 160,
+                  "endColumn": 91
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 141,
+                  "endLine": 160,
+                  "endColumn": 143
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 29,
+                  "endLine": 165,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 81,
+                  "endLine": 165,
+                  "endColumn": 83
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 29,
+                  "endLine": 170,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 29,
+                  "endLine": 178,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 182,
+                  "startColumn": 29,
+                  "endLine": 182,
+                  "endColumn": 33
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 184,
+                  "startColumn": 33,
+                  "endLine": 184,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 13,
+                  "endLine": 195,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 199,
+                  "startColumn": 13,
+                  "endLine": 199,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+6 (incl 5 for nesting)",
+              "11": "+1",
+              "12": "+1",
+              "13": "+5 (incl 4 for nesting)",
+              "14": "+1",
+              "15": "+5 (incl 4 for nesting)",
+              "16": "+5 (incl 4 for nesting)",
+              "17": "+1",
+              "18": "+6 (incl 5 for nesting)",
+              "19": "+1",
+              "2": "+1",
+              "20": "+1",
+              "3": "+3 (incl 2 for nesting)",
+              "4": "+1",
+              "5": "+1",
+              "6": "+4 (incl 3 for nesting)",
+              "7": "+1",
+              "8": "+1",
+              "9": "+5 (incl 4 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 281,
+                  "startColumn": 29,
+                  "endLine": 281,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 283,
+                  "startColumn": 13,
+                  "endLine": 283,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 299,
+                  "startColumn": 17,
+                  "endLine": 299,
+                  "endColumn": 22
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 302,
+                  "startColumn": 21,
+                  "endLine": 302,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 305,
+                  "startColumn": 21,
+                  "endLine": 305,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 318,
+                  "startColumn": 25,
+                  "endLine": 318,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 326,
+                  "startColumn": 25,
+                  "endLine": 326,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 337,
+                  "startColumn": 21,
+                  "endLine": 337,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 350,
+                  "startColumn": 25,
+                  "endLine": 350,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 358,
+                  "startColumn": 25,
+                  "endLine": 358,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 369,
+                  "startColumn": 21,
+                  "endLine": 369,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 385,
+                  "startColumn": 25,
+                  "endLine": 385,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 393,
+                  "startColumn": 25,
+                  "endLine": 393,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 404,
+                  "startColumn": 21,
+                  "endLine": 404,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 420,
+                  "startColumn": 25,
+                  "endLine": 420,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 428,
+                  "startColumn": 25,
+                  "endLine": 428,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 439,
+                  "startColumn": 21,
+                  "endLine": 439,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 455,
+                  "startColumn": 25,
+                  "endLine": 455,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 463,
+                  "startColumn": 25,
+                  "endLine": 463,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 478,
+                  "startColumn": 13,
+                  "endLine": 478,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+3 (incl 2 for nesting)",
+              "11": "+1",
+              "12": "+2 (incl 1 for nesting)",
+              "13": "+3 (incl 2 for nesting)",
+              "14": "+1",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+3 (incl 2 for nesting)",
+              "17": "+1",
+              "18": "+1",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+1",
+              "6": "+2 (incl 1 for nesting)",
+              "7": "+3 (incl 2 for nesting)",
+              "8": "+1",
+              "9": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S1313",
+          "level": "warning",
+          "message": "Make sure using this hardcoded IP address '192.168.12.42' is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 37,
+                  "endLine": 26,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field 'result' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine2.asmx.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 24,
+                  "endLine": 19,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field 'result' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine3.asmx.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 24,
+                  "endLine": 19,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 33,
+                  "endLine": 160,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 29,
+                  "endLine": 158,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2368",
+          "level": "warning",
+          "message": "Make this method private or simplify its parameters to not use multidimensional/jagged arrays.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 21,
+                  "endLine": 207,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1168",
+          "level": "warning",
+          "message": "Return an empty collection instead of null.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 17,
+                  "endLine": 70,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1168",
+          "level": "warning",
+          "message": "Return an empty collection instead of null.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 287,
+                  "startColumn": 17,
+                  "endLine": 287,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 482,
+                  "startColumn": 17,
+                  "endLine": 482,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 29,
+                  "endLine": 153,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3256",
+          "level": "warning",
+          "message": "Use 'string.IsNullOrEmpty()' instead of comparing to empty string.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 18,
+                  "endLine": 195,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2053",
+          "level": "warning",
+          "message": "Make this salt at least 16 bytes.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 62,
+                  "endLine": 39,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'fromHardcoded'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 17,
+                  "endLine": 32,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'fromPassword'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 17,
+                  "endLine": 35,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'fromShort'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 17,
+                  "endLine": 39,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'resp'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/Source/Vulnerability.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 20,
+                  "endLine": 23,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S1066": {
+          "id": "S1066",
+          "shortDescription": "Collapsible \"if\" statements should be merged",
+          "fullDescription": "Merging collapsible if statements increases the code’s readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1066",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1117": {
+          "id": "S1117",
+          "shortDescription": "Local variables should not shadow class fields",
+          "fullDescription": "Overriding or shadowing a variable declared in an outer scope can strongly impact the readability, and therefore the maintainability, of a piece of code. Further, it could lead maintainers to introduce bugs because they think they’re using one variable but are really using another.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1117",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1144": {
+          "id": "S1144",
+          "shortDescription": "Unused private types or members should be removed",
+          "fullDescription": "private or internal types or private members that are never executed or referenced are dead code: unnecessary, inoperative code that should be removed. Cleaning out dead code decreases the size of the maintained codebase, making it easier to understand the program and preventing bugs from being introduced.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1144",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay",
+              "Unnecessary"
+            ]
+          }
+        },
+        "S1168": {
+          "id": "S1168",
+          "shortDescription": "Empty arrays and collections should be returned instead of null",
+          "fullDescription": "Returning null instead of an actual array, collection or map forces callers of the method to explicitly test for nullity, making them more complex and less readable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1168",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1313": {
+          "id": "S1313",
+          "shortDescription": "Using hardcoded IP addresses is security-sensitive",
+          "fullDescription": "Hardcoding IP addresses is security-sensitive. It has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1313",
+          "properties": {
+            "category": "Major Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1450": {
+          "id": "S1450",
+          "shortDescription": "Private fields only used as local variables in methods should become local variables",
+          "fullDescription": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1643": {
+          "id": "S1643",
+          "shortDescription": "Strings should not be concatenated using '+' in a loop",
+          "fullDescription": "StringBuilder is more efficient than string concatenation, especially when the operator is repeated over and over as in loops.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1643",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2053": {
+          "id": "S2053",
+          "shortDescription": "Hashes should include an unpredictable salt",
+          "fullDescription": "In cryptography, a \"salt\" is an extra piece of data which is included when hashing a password. This makes rainbow-table attacks more difficult. Using a cryptographic hash function without an unpredictable salt increases the likelihood that an attacker could successfully find the hash value in databases of precomputed hashes (called rainbow-tables).",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2053",
+          "properties": {
+            "category": "Critical Vulnerability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2368": {
+          "id": "S2368",
+          "shortDescription": "Public methods should not have multidimensional array parameters",
+          "fullDescription": "Exposing methods with multidimensional array parameters requires developers to have advanced knowledge about the language in order to be able to use them. Moreover, what exactly to pass to such parameters is not intuitive. Therefore, such methods should not be exposed, but can be used internally.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2368",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2589": {
+          "id": "S2589",
+          "shortDescription": "Boolean expressions should not be gratuitous",
+          "fullDescription": "If a boolean expression doesn’t change the evaluation of the condition, then it is entirely unnecessary, and can be removed. If it is gratuitous because it does not match the programmer’s intent, then it’s a bug and the expression should be fixed.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2589",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3256": {
+          "id": "S3256",
+          "shortDescription": "\"string.IsNullOrEmpty\" should be used",
+          "fullDescription": "Using string.Equals to determine if a string is empty is significantly slower than using string.IsNullOrEmpty() or checking for string.Length == 0. string.IsNullOrEmpty() is both clear and concise, and therefore preferred to laborious, error-prone, manual null- and emptiness-checking.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3256",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3442": {
+          "id": "S3442",
+          "shortDescription": "\"abstract\" classes should not have \"public\" constructors",
+          "fullDescription": "Since abstract classes can’t be instantiated, there’s no point in their having public or internal constructors. If there is basic initialization logic that should run when an extending class instance is created, you can by all means put it in a constructor, but make that constructor private, private protected or protected.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3442",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Roslyn version: 4.1.0.0Language version: CSharp7_3!Concurrent execution: enabledqmFile 'D:\dev\training\badcode\CalculatorServices\Properties\Settings.Designer.cs' was recognized as generatedçàFile 'D:\dev\training\badcode\CalculatorServices\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs' was recognized as generated

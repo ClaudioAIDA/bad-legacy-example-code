@@ -1,0 +1,188 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.1.0.0",
+        "fileVersion": "4.1.0-5.22165.10 (e555772d)",
+        "semanticVersion": "4.1.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "La variable 'num' está asignada pero su valor nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServicesClient/Source/Client.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 25,
+                  "endLine": 65,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S2757",
+          "level": "warning",
+          "message": "Was '-=' meant instead?",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServicesClient/Source/Client.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 40,
+                  "endLine": 68,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServicesClient/Source/Client.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 25,
+                  "endLine": 48,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServicesClient/Source/Client.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 21,
+                  "endLine": 64,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'num'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServicesClient/Source/Client.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 25,
+                  "endLine": 65,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0219": {
+          "id": "CS0219",
+          "shortDescription": "La variable está asignada pero nunca se usa su valor",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0219)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1643": {
+          "id": "S1643",
+          "shortDescription": "Strings should not be concatenated using '+' in a loop",
+          "fullDescription": "StringBuilder is more efficient than string concatenation, especially when the operator is repeated over and over as in loops.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1643",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2757": {
+          "id": "S2757",
+          "shortDescription": "\"=+\" should not be used instead of \"+=\"",
+          "fullDescription": "The use of operators pairs ( =+, =- or =! ) where the reversed, single operator was meant (+=, -= or !=) will compile and run, but not produce the expected results.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2757",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
