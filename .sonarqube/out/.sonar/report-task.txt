@@ -2,5 +2,5 @@ projectKey=Bad-code
 serverUrl=http://localhost:4444
 serverVersion=9.7.0.61563
 dashboardUrl=http://localhost:4444/dashboard?id=Bad-code
-ceTaskId=AYRCheW8b-izx0MjQsjA
-ceTaskUrl=http://localhost:4444/api/ce/task?id=AYRCheW8b-izx0MjQsjA
+ceTaskId=AYRmhb65zpnTuC9AbB5n
+ceTaskUrl=http://localhost:4444/api/ce/task?id=AYRmhb65zpnTuC9AbB5n

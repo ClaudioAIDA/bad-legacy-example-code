@@ -62,9 +62,9 @@
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 43,
+                  "startLine": 28,
                   "startColumn": 25,
-                  "endLine": 43,
+                  "endLine": 28,
                   "endColumn": 33
                 }
               }
@@ -83,9 +83,9 @@
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 44,
+                  "startLine": 29,
                   "startColumn": 25,
-                  "endLine": 44,
+                  "endLine": 29,
                   "endColumn": 33
                 }
               }
@@ -96,18 +96,18 @@
           }
         },
         {
-          "ruleId": "S125",
+          "ruleId": "S2933",
           "level": "warning",
-          "message": "Remove this commented out code.",
+          "message": "Make 'address' 'readonly'.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 273,
-                  "startColumn": 13,
-                  "endLine": 273,
-                  "endColumn": 16
+                  "startLine": 25,
+                  "startColumn": 27,
+                  "endLine": 25,
+                  "endColumn": 34
                 }
               }
             }
@@ -117,39 +117,18 @@
           }
         },
         {
-          "ruleId": "S125",
+          "ruleId": "S2933",
           "level": "warning",
-          "message": "Remove this commented out code.",
+          "message": "Make 'outputList' 'readonly'.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 275,
-                  "startColumn": 17,
-                  "endLine": 275,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3442",
-          "level": "warning",
-          "message": "Change the visibility of this constructor to 'protected'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/Source/AbstractStack.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 9,
-                  "endLine": 10,
-                  "endColumn": 15
+                  "startLine": 32,
+                  "startColumn": 30,
+                  "endLine": 32,
+                  "endColumn": 40
                 }
               }
             }
@@ -182,57 +161,15 @@
         {
           "ruleId": "S2933",
           "level": "warning",
-          "message": "Make 'address' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 27,
-                  "startColumn": 27,
-                  "endLine": 27,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'outputList' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 47,
-                  "startColumn": 30,
-                  "endLine": 47,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
           "message": "Make 'logger' 'readonly'.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 48,
+                  "startLine": 33,
                   "startColumn": 33,
-                  "endLine": 48,
+                  "endLine": 33,
                   "endColumn": 39
                 }
               }
@@ -243,18 +180,39 @@
           }
         },
         {
-          "ruleId": "S1144",
+          "ruleId": "S125",
           "level": "warning",
-          "message": "Remove the unused private field 'address'.",
+          "message": "Remove this commented out code.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 27,
-                  "startColumn": 9,
-                  "endLine": 27,
-                  "endColumn": 57
+                  "startLine": 258,
+                  "startColumn": 13,
+                  "endLine": 258,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 260,
+                  "startColumn": 17,
+                  "endLine": 260,
+                  "endColumn": 42
                 }
               }
             }
@@ -319,6 +277,27 @@
           }
         },
         {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private field 'address'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 9,
+                  "endLine": 25,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S3776",
           "level": "warning",
           "message": "Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.",
@@ -327,9 +306,9 @@
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 207,
+                  "startLine": 192,
                   "startColumn": 21,
-                  "endLine": 207,
+                  "endLine": 192,
                   "endColumn": 38
                 }
               }
@@ -340,9 +319,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 218,
+                  "startLine": 203,
                   "startColumn": 13,
-                  "endLine": 218,
+                  "endLine": 203,
                   "endColumn": 16
                 }
               }
@@ -351,10 +330,65 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 220,
+                  "startLine": 205,
                   "startColumn": 17,
-                  "endLine": 220,
+                  "endLine": 205,
                   "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 17,
+                  "endLine": 208,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 211,
+                  "startColumn": 13,
+                  "endLine": 211,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 211,
+                  "startColumn": 42,
+                  "endLine": 211,
+                  "endColumn": 44
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 13,
+                  "endLine": 215,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 13,
+                  "endLine": 221,
+                  "endColumn": 17
                 }
               }
             },
@@ -373,64 +407,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 226,
-                  "startColumn": 13,
-                  "endLine": 226,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 226,
-                  "startColumn": 42,
-                  "endLine": 226,
-                  "endColumn": 44
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 230,
-                  "startColumn": 13,
-                  "endLine": 230,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 236,
-                  "startColumn": 13,
-                  "endLine": 236,
-                  "endColumn": 17
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 238,
-                  "startColumn": 17,
-                  "endLine": 238,
-                  "endColumn": 19
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 248,
+                  "startLine": 233,
                   "startColumn": 21,
-                  "endLine": 248,
+                  "endLine": 233,
                   "endColumn": 26
                 }
               }
@@ -439,9 +418,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 253,
+                  "startLine": 238,
                   "startColumn": 25,
-                  "endLine": 253,
+                  "endLine": 238,
                   "endColumn": 27
                 }
               }
@@ -450,9 +429,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 256,
+                  "startLine": 241,
                   "startColumn": 25,
-                  "endLine": 256,
+                  "endLine": 241,
                   "endColumn": 29
                 }
               }
@@ -461,9 +440,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 263,
+                  "startLine": 248,
                   "startColumn": 17,
-                  "endLine": 263,
+                  "endLine": 248,
                   "endColumn": 21
                 }
               }
@@ -472,9 +451,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 207,
+                  "startLine": 192,
                   "startColumn": 21,
-                  "endLine": 207,
+                  "endLine": 192,
                   "endColumn": 38
                 }
               }
@@ -508,9 +487,9 @@
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 94,
+                  "startLine": 79,
                   "startColumn": 29,
-                  "endLine": 94,
+                  "endLine": 79,
                   "endColumn": 47
                 }
               }
@@ -521,9 +500,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 135,
+                  "startLine": 120,
                   "startColumn": 13,
-                  "endLine": 135,
+                  "endLine": 120,
                   "endColumn": 16
                 }
               }
@@ -532,9 +511,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 137,
+                  "startLine": 122,
                   "startColumn": 17,
-                  "endLine": 137,
+                  "endLine": 122,
                   "endColumn": 19
                 }
               }
@@ -543,9 +522,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 142,
+                  "startLine": 127,
                   "startColumn": 17,
-                  "endLine": 142,
+                  "endLine": 127,
                   "endColumn": 21
                 }
               }
@@ -554,9 +533,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 145,
+                  "startLine": 130,
                   "startColumn": 21,
-                  "endLine": 145,
+                  "endLine": 130,
                   "endColumn": 23
                 }
               }
@@ -565,9 +544,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 145,
+                  "startLine": 130,
                   "startColumn": 43,
-                  "endLine": 145,
+                  "endLine": 130,
                   "endColumn": 45
                 }
               }
@@ -576,9 +555,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 149,
+                  "startLine": 134,
                   "startColumn": 21,
-                  "endLine": 149,
+                  "endLine": 134,
                   "endColumn": 25
                 }
               }
@@ -587,9 +566,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 152,
+                  "startLine": 137,
                   "startColumn": 25,
-                  "endLine": 152,
+                  "endLine": 137,
                   "endColumn": 27
                 }
               }
@@ -598,9 +577,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 152,
+                  "startLine": 137,
                   "startColumn": 77,
-                  "endLine": 152,
+                  "endLine": 137,
                   "endColumn": 79
                 }
               }
@@ -609,9 +588,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 156,
+                  "startLine": 141,
                   "startColumn": 25,
-                  "endLine": 156,
+                  "endLine": 141,
                   "endColumn": 29
                 }
               }
@@ -620,9 +599,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 158,
+                  "startLine": 143,
                   "startColumn": 29,
-                  "endLine": 158,
+                  "endLine": 143,
                   "endColumn": 31
                 }
               }
@@ -631,9 +610,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 160,
+                  "startLine": 145,
                   "startColumn": 33,
-                  "endLine": 160,
+                  "endLine": 145,
                   "endColumn": 35
                 }
               }
@@ -642,9 +621,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 160,
+                  "startLine": 145,
                   "startColumn": 89,
-                  "endLine": 160,
+                  "endLine": 145,
                   "endColumn": 91
                 }
               }
@@ -653,9 +632,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 160,
+                  "startLine": 145,
                   "startColumn": 141,
-                  "endLine": 160,
+                  "endLine": 145,
                   "endColumn": 143
                 }
               }
@@ -664,9 +643,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 165,
+                  "startLine": 150,
                   "startColumn": 29,
-                  "endLine": 165,
+                  "endLine": 150,
                   "endColumn": 31
                 }
               }
@@ -675,9 +654,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 165,
+                  "startLine": 150,
                   "startColumn": 81,
-                  "endLine": 165,
+                  "endLine": 150,
                   "endColumn": 83
                 }
               }
@@ -686,9 +665,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 170,
+                  "startLine": 155,
                   "startColumn": 29,
-                  "endLine": 170,
+                  "endLine": 155,
                   "endColumn": 31
                 }
               }
@@ -697,9 +676,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 178,
+                  "startLine": 163,
                   "startColumn": 29,
-                  "endLine": 178,
+                  "endLine": 163,
                   "endColumn": 31
                 }
               }
@@ -708,9 +687,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 182,
+                  "startLine": 167,
                   "startColumn": 29,
-                  "endLine": 182,
+                  "endLine": 167,
                   "endColumn": 33
                 }
               }
@@ -719,9 +698,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 184,
+                  "startLine": 169,
                   "startColumn": 33,
-                  "endLine": 184,
+                  "endLine": 169,
                   "endColumn": 35
                 }
               }
@@ -730,9 +709,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 195,
+                  "startLine": 180,
                   "startColumn": 13,
-                  "endLine": 195,
+                  "endLine": 180,
                   "endColumn": 15
                 }
               }
@@ -741,9 +720,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 199,
+                  "startLine": 184,
                   "startColumn": 13,
-                  "endLine": 199,
+                  "endLine": 184,
                   "endColumn": 18
                 }
               }
@@ -785,9 +764,9 @@
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 281,
+                  "startLine": 266,
                   "startColumn": 29,
-                  "endLine": 281,
+                  "endLine": 266,
                   "endColumn": 34
                 }
               }
@@ -798,9 +777,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 283,
+                  "startLine": 268,
                   "startColumn": 13,
-                  "endLine": 283,
+                  "endLine": 268,
                   "endColumn": 15
                 }
               }
@@ -809,9 +788,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 299,
+                  "startLine": 284,
                   "startColumn": 17,
-                  "endLine": 299,
+                  "endLine": 284,
                   "endColumn": 22
                 }
               }
@@ -820,9 +799,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 302,
+                  "startLine": 287,
                   "startColumn": 21,
-                  "endLine": 302,
+                  "endLine": 287,
                   "endColumn": 23
                 }
               }
@@ -831,9 +810,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 305,
+                  "startLine": 290,
                   "startColumn": 21,
-                  "endLine": 305,
+                  "endLine": 290,
                   "endColumn": 23
                 }
               }
@@ -842,9 +821,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 318,
+                  "startLine": 303,
                   "startColumn": 25,
-                  "endLine": 318,
+                  "endLine": 303,
                   "endColumn": 27
                 }
               }
@@ -853,9 +832,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 326,
+                  "startLine": 311,
                   "startColumn": 25,
-                  "endLine": 326,
+                  "endLine": 311,
                   "endColumn": 29
                 }
               }
@@ -864,9 +843,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 337,
+                  "startLine": 322,
                   "startColumn": 21,
-                  "endLine": 337,
+                  "endLine": 322,
                   "endColumn": 23
                 }
               }
@@ -875,9 +854,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 350,
+                  "startLine": 335,
                   "startColumn": 25,
-                  "endLine": 350,
+                  "endLine": 335,
                   "endColumn": 27
                 }
               }
@@ -886,9 +865,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 358,
+                  "startLine": 343,
                   "startColumn": 25,
-                  "endLine": 358,
+                  "endLine": 343,
                   "endColumn": 29
                 }
               }
@@ -897,9 +876,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 369,
+                  "startLine": 354,
                   "startColumn": 21,
-                  "endLine": 369,
+                  "endLine": 354,
                   "endColumn": 23
                 }
               }
@@ -908,9 +887,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 385,
+                  "startLine": 370,
                   "startColumn": 25,
-                  "endLine": 385,
+                  "endLine": 370,
                   "endColumn": 27
                 }
               }
@@ -919,9 +898,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 393,
+                  "startLine": 378,
                   "startColumn": 25,
-                  "endLine": 393,
+                  "endLine": 378,
                   "endColumn": 29
                 }
               }
@@ -930,9 +909,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 404,
+                  "startLine": 389,
                   "startColumn": 21,
-                  "endLine": 404,
+                  "endLine": 389,
                   "endColumn": 23
                 }
               }
@@ -941,9 +920,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 420,
+                  "startLine": 405,
                   "startColumn": 25,
-                  "endLine": 420,
+                  "endLine": 405,
                   "endColumn": 27
                 }
               }
@@ -952,9 +931,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 428,
+                  "startLine": 413,
                   "startColumn": 25,
-                  "endLine": 428,
+                  "endLine": 413,
                   "endColumn": 29
                 }
               }
@@ -963,9 +942,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 439,
+                  "startLine": 424,
                   "startColumn": 21,
-                  "endLine": 439,
+                  "endLine": 424,
                   "endColumn": 23
                 }
               }
@@ -974,10 +953,21 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 455,
+                  "startLine": 440,
                   "startColumn": 25,
-                  "endLine": 455,
+                  "endLine": 440,
                   "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 448,
+                  "startColumn": 25,
+                  "endLine": 448,
+                  "endColumn": 29
                 }
               }
             },
@@ -986,19 +976,8 @@
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
                   "startLine": 463,
-                  "startColumn": 25,
-                  "endLine": 463,
-                  "endColumn": 29
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 478,
                   "startColumn": 13,
-                  "endLine": 478,
+                  "endLine": 463,
                   "endColumn": 18
                 }
               }
@@ -1038,31 +1017,10 @@
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 26,
+                  "startLine": 24,
                   "startColumn": 37,
-                  "endLine": 26,
+                  "endLine": 24,
                   "endColumn": 52
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1450",
-          "level": "warning",
-          "message": "Remove the field 'result' and declare it as a local variable in the relevant methods.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine2.asmx.cs",
-                "region": {
-                  "startLine": 19,
-                  "startColumn": 24,
-                  "endLine": 19,
-                  "endColumn": 30
                 }
               }
             }
@@ -1093,6 +1051,27 @@
           }
         },
         {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field 'result' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine2.asmx.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 24,
+                  "endLine": 19,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1066",
           "level": "warning",
           "message": "Merge this if statement with the enclosing one.",
@@ -1101,9 +1080,9 @@
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 160,
+                  "startLine": 145,
                   "startColumn": 33,
-                  "endLine": 160,
+                  "endLine": 145,
                   "endColumn": 35
                 }
               }
@@ -1114,10 +1093,31 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 158,
+                  "startLine": 143,
                   "startColumn": 29,
-                  "endLine": 158,
+                  "endLine": 143,
                   "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 29,
+                  "endLine": 138,
+                  "endColumn": 75
                 }
               }
             }
@@ -1135,9 +1135,9 @@
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 207,
+                  "startLine": 192,
                   "startColumn": 21,
-                  "endLine": 207,
+                  "endLine": 192,
                   "endColumn": 38
                 }
               }
@@ -1156,9 +1156,9 @@
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 70,
+                  "startLine": 55,
                   "startColumn": 17,
-                  "endLine": 70,
+                  "endLine": 55,
                   "endColumn": 29
                 }
               }
@@ -1177,9 +1177,9 @@
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 287,
+                  "startLine": 272,
                   "startColumn": 17,
-                  "endLine": 287,
+                  "endLine": 272,
                   "endColumn": 29
                 }
               }
@@ -1190,31 +1190,10 @@
               "physicalLocation": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 482,
+                  "startLine": 467,
                   "startColumn": 17,
-                  "endLine": 482,
+                  "endLine": 467,
                   "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1643",
-          "level": "warning",
-          "message": "Use a StringBuilder instead.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 153,
-                  "startColumn": 29,
-                  "endLine": 153,
-                  "endColumn": 75
                 }
               }
             }
@@ -1232,94 +1211,10 @@
               "resultFile": {
                 "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
                 "region": {
-                  "startLine": 195,
+                  "startLine": 180,
                   "startColumn": 18,
-                  "endLine": 195,
+                  "endLine": 180,
                   "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2053",
-          "level": "warning",
-          "message": "Make this salt at least 16 bytes.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 39,
-                  "startColumn": 62,
-                  "endLine": 39,
-                  "endColumn": 71
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'fromHardcoded'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 32,
-                  "startColumn": 17,
-                  "endLine": 32,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'fromPassword'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 35,
-                  "startColumn": 17,
-                  "endLine": 35,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'fromShort'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/dev/training/badcode/CalculatorServices/WebServices/Machine1.asmx.cs",
-                "region": {
-                  "startLine": 39,
-                  "startColumn": 17,
-                  "endLine": 39,
-                  "endColumn": 26
                 }
               }
             }
@@ -1517,22 +1412,6 @@
             ]
           }
         },
-        "S2053": {
-          "id": "S2053",
-          "shortDescription": "Hashes should include an unpredictable salt",
-          "fullDescription": "In cryptography, a \"salt\" is an extra piece of data which is included when hashing a password. This makes rainbow-table attacks more difficult. Using a cryptographic hash function without an unpredictable salt increases the likelihood that an attacker could successfully find the hash value in databases of precomputed hashes (called rainbow-tables).",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2053",
-          "properties": {
-            "category": "Critical Vulnerability",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
         "S2368": {
           "id": "S2368",
           "shortDescription": "Public methods should not have multidimensional array parameters",
@@ -1595,23 +1474,6 @@
             "tags": [
               "C#",
               "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S3442": {
-          "id": "S3442",
-          "shortDescription": "\"abstract\" classes should not have \"public\" constructors",
-          "fullDescription": "Since abstract classes can’t be instantiated, there’s no point in their having public or internal constructors. If there is basic initialization logic that should run when an extending class instance is created, you can by all means put it in a constructor, but make that constructor private, private protected or protected.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3442",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
               "SonarWay"
             ]
           }

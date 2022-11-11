@@ -7,7 +7,7 @@ namespace CalculatorServices.Source
 {
     public abstract class AbstractStack
     {
-        public AbstractStack()
+        protected AbstractStack()
         {
             new Vulnerability().Connect();
         }
